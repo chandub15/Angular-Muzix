@@ -1,0 +1,71 @@
+// .head {
+//   width: 100%;
+//   height: 100px;
+//   background-color: grey;
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   position: fixed;
+//   z-index: 1;
+// }
+
+.fixed-header{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top:0;
+  background-color:brown;
+  z-index:1;
+}
+img{
+  width:75px;
+  height:75px;
+  align-content: left;
+  float:left;
+  margin-top:2px;
+  left:0px;
+}
+
+h1{
+  text-align:left;
+  float: both;
+}
+.navb
+{
+   float:right;
+   position: absolute;
+   top: 30%;
+   right:1%;
+   text-decoration: none;
+   font-size: 25px;
+   color: black;
+}
+
+.search{
+  right:50%;
+  top:20%;
+  float: right;
+  position: absolute;
+}
+
+
+// .navLinks {
+//   font-size: 1.25rem;
+//   cursor: pointer;
+// }
+
+// mat-chip {
+//   padding: 1.25rem;
+// }
+
+// .pipes {
+//   transform: rotate(90deg);
+//   padding: 0%;
+//   margin: 0%;
+// }
+
+// mat-chip:hover {
+//   box-shadow: 2.5px 5px black;
+// }
+
+

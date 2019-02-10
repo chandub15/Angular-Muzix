@@ -1,0 +1,20 @@
+<div class="fixed-header">
+  <img src="../assets/icon-music1.png" >
+  <h1>muzix</h1>
+  <div class="search">
+    <mat-form-field appearance="outline">
+      <mat-label>Search Track</mat-label>
+      <input matInput placeholder="Enter Track Name" (input)="search($event.target.value)">
+      <mat-icon matSuffix>search</mat-icon>
+  </mat-form-field>
+  </div>
+  <section class="navb">
+    <mat-chip-list>
+      <mat-chip color="a" class="navLinks" selected [routerLink]="['/']" >Home</mat-chip>
+      <mat-icon class="pipes">remove</mat-icon>
+      <mat-chip color="a" class="navLinks" selected [routerLink]="['/wishlist']">Wishlist</mat-chip>
+    </mat-chip-list>
+  </section>
+</div>
+
+
